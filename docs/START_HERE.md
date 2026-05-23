@@ -38,13 +38,13 @@ The product is a local-first vocabulary memory runtime. It imports prepared word
 For domestic users, first open the Gitee mirror landing page:
 
 ```text
-https://gitee.com/janusai_admin/cijing-wordscape-os
+https://gitee.com/cijingos/cijing-wordscape-os
 ```
 
 If Gitee Pages is enabled, the domestic online app URL is:
 
 ```text
-https://janusai_admin.gitee.io/cijing-wordscape-os/
+https://cijingos.gitee.io/cijing-wordscape-os/
 ```
 
 Open the public app:

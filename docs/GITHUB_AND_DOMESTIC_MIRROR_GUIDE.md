@@ -108,7 +108,7 @@ Users should export a backup before moving between hosted origins.
 Current domestic mirror landing page:
 
 ```text
-https://gitee.com/janusai_admin/cijing-wordscape-os
+https://gitee.com/cijingos/cijing-wordscape-os
 ```
 
 This `gitee.com` URL is the repository and documentation entry point. It can explain how to import sample packs and own `.json` card packages, but it is not the running PWA origin.
@@ -122,7 +122,7 @@ gh-pages
 Expected domestic online app URL after Gitee Pages is enabled:
 
 ```text
-https://janusai_admin.gitee.io/cijing-wordscape-os/
+https://cijingos.gitee.io/cijing-wordscape-os/
 ```
 
 In Gitee, enable it from the repository page:

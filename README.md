@@ -26,7 +26,7 @@
 国内用户可先打开 Gitee 入口页：
 
 ```text
-https://gitee.com/janusai_admin/cijing-wordscape-os
+https://gitee.com/cijingos/cijing-wordscape-os
 ```
 
 在线应用页：
@@ -38,7 +38,7 @@ https://janus-ai.github.io/cijing-wordscape-os/
 国内在线应用页（启用 Gitee Pages 后）：
 
 ```text
-https://janusai_admin.gitee.io/cijing-wordscape-os/
+https://cijingos.gitee.io/cijing-wordscape-os/
 ```
 
 使用步骤：
