@@ -1,79 +1,116 @@
-# Official Learning Content License
+# 雅努斯词境 OS 官方学习内容许可
 
 Copyright (c) 2026 Janus.
 
-Official word-card packages, sample packs, card-production blueprints, field
-standards, glossary examples, screenshots, and learning content authored for
-Janus Wordscape OS are official content assets. They are not licensed under the
-AGPL software license.
+本许可适用于雅努斯词境 OS 的官方学习内容资产。  
+这些内容资产不属于 AGPL 软件代码许可证的授权范围。
 
-## Scope
+## 1. 适用范围
 
-This license applies to official learning-content assets in this repository,
-including:
+本许可适用于本项目中的官方学习内容资产，包括但不限于：
 
-- official and sample word-card packages;
-- card-production blueprints and field standards;
-- glossary examples, scenario packs, and demo learning content;
-- official screenshots, manuals, and product explanation assets unless a file
-  states a different license.
+- 官方词卡包；
+- 示例词卡包；
+- 演示词卡包；
+- 词卡生产蓝图；
+- 词卡字段标准；
+- 场景分类标准；
+- 词汇表、示例释义、示例句；
+- 官方截图、说明文档、产品介绍材料；
+- 由 Janus / 雅努斯词境 OS 官方制作并发布的学习内容。
 
-This license does not apply to third-party source materials, dictionary entries,
-audio assets, or quoted materials. Those remain governed by their original
-rights holders and licenses.
+本许可不适用于第三方材料，包括但不限于：
 
-## Allowed Without Written Permission
+- 第三方词典内容；
+- 第三方音频；
+- 第三方网站材料；
+- 第三方教材、文章、论文、截图或引用内容。
 
-You may:
+这些第三方材料仍受其原权利人和原许可证约束。
 
-- download and inspect the official sample content;
-- use official sample packs for personal learning and product evaluation;
-- use the content in non-commercial classroom demonstrations or internal
-  non-commercial testing;
-- cite short excerpts with attribution for commentary, review, or technical
-  discussion.
+## 2. 无需书面许可即可使用
 
-## Not Allowed Without Written Permission
+你可以在以下范围内使用官方学习内容：
 
-You may not:
+- 下载并查看官方示例内容；
+- 用于个人学习；
+- 用于产品体验、功能测试和非商业评估；
+- 用于非商业课堂演示；
+- 用于内部非商业测试；
+- 在评论、评测、技术讨论中，带署名引用少量内容。
 
-- sell, rent, sublicense, or commercially redistribute official card packages;
-- repackage official content as a paid course, paid deck, paid app, or paid
-  service;
-- remove attribution, copyright notices, source notices, or license metadata;
-- train, fine-tune, or evaluate commercial AI models on official content assets;
-- bulk-copy official card packages into another vocabulary product or platform;
-- present official content as community-created or independently authored.
+## 3. 未经书面许可不得使用
 
-## Commercial Authorization
+未经项目所有者书面许可，你不得：
 
-Commercial use of official learning content requires separate written
-permission from the project owner. Commercial authorization may be granted by a
-separate agreement for specific content packages, distribution channels,
-territories, and use cases.
+- 出售、出租、转授权或商业分发官方词卡包；
+- 将官方内容重新包装为付费课程、付费词卡、付费应用或付费服务；
+- 批量复制官方词卡包到其他词汇产品、学习平台或内容平台；
+- 删除版权声明、来源声明、署名信息或许可证元数据；
+- 将官方内容冒充为社区原创内容或独立制作内容；
+- 使用官方内容训练、微调或评测商业 AI 模型；
+- 以任何方式暗示未经授权的产品、服务或词卡包是雅努斯词境 OS 官方发布。
 
-## Community Card Packages
+## 4. 商业授权
 
-Community-created card packages are not automatically owned or licensed by
-Janus Wordscape OS.
+官方学习内容的商业使用需要单独获得项目所有者的书面授权。
 
-Creators retain rights to their own card packages, subject to any third-party
-materials they include. A shared community package should clearly declare:
+商业授权可以针对特定内容包、使用场景、分发渠道、地区范围和授权期限另行约定。
 
-- creator name or handle;
-- source materials and citations;
-- package license;
-- whether commercial reuse is allowed;
-- whether redistribution or modification is allowed.
+AGPL 软件代码许可证允许代码层面的商业使用，但不自动授予官方品牌、官方词卡包、官方文档、官方截图或其他官方内容资产的商业使用权。
 
-If a community package does not declare a license, treat it as all-rights-
-reserved by its creator and do not redistribute it without permission.
+## 5. 社区词卡包
 
-## Takedown Boundary
+社区用户自行创建的词卡包，不自动归雅努斯词境 OS 所有。
 
-Janus Wordscape OS may host, link to, or index community card packages as
-untrusted user content. If a rights holder reports infringement, the project may
-remove links, metadata, or hosted copies according to `TAKEDOWN_POLICY.md`.
+社区创作者保留其自制词卡包的权利，但应自行确保其内容不侵犯第三方权利。
 
-This file is not legal advice. Review the final licensing strategy with a
-qualified professional before commercial rollout.
+建议每个社区词卡包明确声明：
+
+- 创作者名称或账号；
+- 来源材料和引用信息；
+- 内容许可证；
+- 是否允许商业使用；
+- 是否允许转载、修改或二次分发；
+- 是否包含第三方材料。
+
+如果社区词卡包没有声明许可证，应默认视为创作者保留全部权利，未经许可不得转载或再分发。
+
+## 6. 平台与下架边界
+
+雅努斯词境 OS 可以托管、链接、索引或展示社区词卡包，但社区词卡包应被视为不可信的用户生成内容。
+
+如果权利人提出侵权投诉，项目可以依据 `TAKEDOWN_POLICY.md` 删除相关链接、元数据、索引信息或托管副本。
+
+## 7. 品牌边界
+
+`雅努斯词境 OS`、`Janus Wordscape OS`、相关名称、标识、图标、视觉风格和官方发布身份属于项目品牌资产。
+
+本许可不授予任何人将修改版、衍生产品、第三方词卡包或无关产品宣传为“雅努斯词境 OS 官方版本”的权利。
+
+品牌使用规则见 `BRAND_POLICY.md`。
+
+## 8. 与软件许可证的关系
+
+本项目的软件代码采用：
+
+```text
+AGPL-3.0-or-later
+```
+
+官方学习内容采用本许可。
+
+两者边界如下：
+
+```text
+软件代码：AGPL-3.0-or-later
+官方学习内容：本官方学习内容许可
+社区词卡包：由创作者自行声明许可证
+第三方材料：由原权利人和原许可证约束
+品牌资产：保留权利，按 BRAND_POLICY.md 管理
+```
+
+## 9. 免责声明
+
+本文件不是法律意见。  
+正式商业发布、授权合作或大规模社区运营前，建议由具备资质的法律专业人士审阅最终许可文本。
