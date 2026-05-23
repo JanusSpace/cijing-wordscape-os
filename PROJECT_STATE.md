@@ -47,6 +47,13 @@ next phase: decide Remote Sync Decision And Persistence Adapter Boundary, unless
 ```text
 README.md
 ROADMAP.md
+LICENSE
+NOTICE
+BRAND_POLICY.md
+CONTENT_LICENSE.md
+DOCS_LICENSE.md
+COMMERCIAL_USE.md
+TAKEDOWN_POLICY.md
 docs/PROJECT_STRUCTURE.md
 docs/DATA_MODEL.md
 docs/IMPORT_FORMAT.md
@@ -99,6 +106,15 @@ data/card-production/janus-personal-ai-english-sample-120.package.json
 schemas/standard-word-card-package.schema.json
 examples/standard-word-card-package.example.json
 examples/standard-word-card-package.example.csv
+docs/JANUS_WORDSCAPE_CARD_FACTORY_PORTABLE.md
+docs/START_HERE.md
+docs/ADAPTATION_MATRIX.md
+docs/USER_LOCAL_ADAPTATION_GUIDE.md
+docs/CARD_FACTORY_SHAPE_GUIDE.md
+docs/GITHUB_AND_DOMESTIC_MIRROR_GUIDE.md
+scripts/janus-card-factory-core.mjs
+scripts/janus-card-factory-cli.mjs
+scripts/janus-card-factory-mcp-server.mjs
 src/ local React learning runtime
 ```
 

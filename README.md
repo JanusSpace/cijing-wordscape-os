@@ -125,10 +125,29 @@ docs/UI_FREEZE_INDEX_v1.0.md
 docs/DATA_FLOW_FREEZE_v1.0.md
 docs/THIRD_PARTY_ALGORITHM_GOVERNANCE.md
 schemas/standard-word-card-package.schema.json
+docs/START_HERE.md
+docs/ADAPTATION_MATRIX.md
+docs/USER_LOCAL_ADAPTATION_GUIDE.md
+docs/CARD_FACTORY_SHAPE_GUIDE.md
+docs/GITHUB_AND_DOMESTIC_MIRROR_GUIDE.md
 ```
+
+## GitHub 与镜像入口
+
+给 GitHub 用户和未来国内镜像用户，推荐从以下路径阅读：
+
+1. [Start Here](docs/START_HERE.md)
+2. [Adaptation Matrix](docs/ADAPTATION_MATRIX.md)
+3. [User Local Adaptation Guide](docs/USER_LOCAL_ADAPTATION_GUIDE.md)
+4. [Card Factory Shape Guide](docs/CARD_FACTORY_SHAPE_GUIDE.md)
+5. [GitHub and Domestic Mirror Guide](docs/GITHUB_AND_DOMESTIC_MIRROR_GUIDE.md)
 
 ## 许可证与第三方声明
 
-本项目当前以预览授权发布，详见 [LICENSE](LICENSE)。
+代码按 Anki-like 机制开放：软件源码使用 [AGPL-3.0-or-later](LICENSE)，接受商业使用，但修改分发或提供网络服务时需要按 AGPL 开源回馈。
+
+品牌、官方词卡包、官方内容资产和文档不随代码自动商业授权，详见 [BRAND_POLICY.md](BRAND_POLICY.md)、[CONTENT_LICENSE.md](CONTENT_LICENSE.md)、[DOCS_LICENSE.md](DOCS_LICENSE.md) 与 [COMMERCIAL_USE.md](COMMERCIAL_USE.md)。
+
+社区词卡包归创作者或原权利人所有；侵权投诉和下架边界见 [TAKEDOWN_POLICY.md](TAKEDOWN_POLICY.md)。
 
 第三方依赖和 FSRS/ts-fsrs 声明见 [NOTICE](NOTICE)。

@@ -15,14 +15,20 @@ This project follows an Anki-like community ecosystem model:
 
 ```text
 Software code: AGPL-3.0-or-later
-Documentation: CC BY-SA 4.0
-Sample card packages and production blueprints: CC BY-SA 4.0, unless stated otherwise
+Documentation: official public-reference license, commercial reuse reserved
+Official card packages and production blueprints: official content license, commercial reuse reserved
+Community card packages: creator-owned, license declared by each creator
 Brand names and marks: reserved by the project owner
 ```
 
 The AGPL software license is intended to keep community improvements open. If a
 modified version is distributed or provided as a network service, the
 corresponding source code must remain available under AGPL-compatible terms.
+
+Official brand assets, official word-card packages, official content assets,
+and official documentation are not made commercially reusable by the AGPL code
+license. See `BRAND_POLICY.md`, `CONTENT_LICENSE.md`, `DOCS_LICENSE.md`, and
+`COMMERCIAL_USE.md`.
 
 ## Brand Notice
 

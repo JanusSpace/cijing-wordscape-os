@@ -2,24 +2,44 @@
 
 Copyright (c) 2026 Janus.
 
-Project documentation is licensed under the Creative Commons Attribution-ShareAlike
-4.0 International License, unless a file states a different license.
-
-SPDX-License-Identifier: CC-BY-SA-4.0
-
-License text:
-
-https://creativecommons.org/licenses/by-sa/4.0/
+Project documentation is published for reading, evaluation, contribution, and
+non-commercial learning. Documentation is not licensed under the AGPL software
+license unless a file explicitly says so.
 
 ## Scope
 
-This applies to Markdown documentation, freeze documents, guides, manuals, and
-process descriptions under this repository.
+This applies to Markdown documentation, freeze documents, guides, manuals,
+product explanations, process descriptions, and release notes under this
+repository.
 
-## Practical Meaning
+## Allowed Without Written Permission
 
-You may copy, adapt, and redistribute the documentation, including commercially,
-as long as you provide attribution and share adapted documentation under the
-same license.
+You may:
 
-Software code is not covered by this document. See `LICENSE`.
+- read, link to, and quote short excerpts with attribution;
+- use the documentation for personal learning, evaluation, and contribution;
+- copy documentation as needed to comply with AGPL source-distribution
+  obligations for the software code;
+- translate or adapt short excerpts for non-commercial commentary, review, or
+  technical discussion with attribution.
+
+## Not Allowed Without Written Permission
+
+You may not:
+
+- sell the documentation as a book, course, template pack, or paid knowledge
+  product;
+- bulk-copy the documentation into a competing commercial product;
+- remove copyright, attribution, license, or third-party notices;
+- present official documentation as independently authored;
+- use official documentation assets to imply endorsement of an unofficial fork.
+
+## Commercial Authorization
+
+Commercial reuse of official documentation, manuals, training materials, or
+freeze documents requires separate written permission from the project owner.
+
+Software source code is not covered by this document. See `LICENSE`.
+
+This file is not legal advice. Review the final licensing strategy with a
+qualified professional before commercial rollout.
