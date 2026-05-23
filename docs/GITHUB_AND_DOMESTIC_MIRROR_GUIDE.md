@@ -105,6 +105,16 @@ GitHub Pages data and domestic Pages data will not automatically share learning 
 
 Users should export a backup before moving between hosted origins.
 
+Current domestic mirror landing page:
+
+```text
+https://gitee.com/janusai_admin/cijing-wordscape-os
+```
+
+This `gitee.com` URL is the repository and documentation entry point. It can explain how to import sample packs and own `.json` card packages, but it is not the running PWA origin.
+
+If Gitee Pages is enabled later, document the actual `gitee.io` application URL here and in `README.md`. Do not imply that the repository page and the application page share the same browser storage.
+
 ## Release Asset Checklist
 
 Attach these to public releases when available:

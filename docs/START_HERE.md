@@ -35,6 +35,12 @@ The product is a local-first vocabulary memory runtime. It imports prepared word
 
 ## First Import Choice
 
+For domestic users, first open the Gitee mirror landing page:
+
+```text
+https://gitee.com/janusai_admin/cijing-wordscape-os
+```
+
 Open the public app:
 
 ```text
@@ -57,6 +63,8 @@ Use this decision rule:
 
 All imported learning data is stored in the current browser's local IndexedDB.
 
+Note: `gitee.com` is a repository and documentation page, not the static app hosting origin. If Gitee Pages is enabled later, it will use a separate `gitee.io` app URL. Browser learning data is isolated by site origin, so GitHub Pages and Gitee Pages will not share IndexedDB records automatically.
+
 ## The Three Card Factory Forms
 
 | Form | Best for | Where it runs |
@@ -69,7 +77,7 @@ All imported learning data is stored in the current browser's local IndexedDB.
 
 GitHub is the source-of-truth repository for code, issues, releases, and GitHub Pages deployment.
 
-Domestic code platforms can mirror the same repository tree for access speed and distribution. The mirror should not become a separate product truth source unless an explicit governance decision is made.
+Domestic code platforms can mirror the same repository tree for access speed, documentation access, and distribution. The mirror should not become a separate product truth source unless an explicit governance decision is made.
 
 Recommended remote names:
 

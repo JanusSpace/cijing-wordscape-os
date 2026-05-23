@@ -19,11 +19,25 @@
 当前版本：v0.1.0-alpha
 ```
 
-用户可以通过 GitHub Pages 打开应用，也可以下载 Release 包后本地静态托管运行。
+用户可以通过在线应用页打开，也可以从 Gitee 国内镜像进入说明页，或下载 Release 包后本地静态托管运行。
 
 ## 快速使用
 
-1. 打开应用页面：[https://janus-ai.github.io/cijing-wordscape-os/](https://janus-ai.github.io/cijing-wordscape-os/)。
+国内用户可先打开 Gitee 入口页：
+
+```text
+https://gitee.com/janusai_admin/cijing-wordscape-os
+```
+
+在线应用页：
+
+```text
+https://janus-ai.github.io/cijing-wordscape-os/
+```
+
+使用步骤：
+
+1. 打开在线应用页面。
 2. 进入 `设置 -> 词卡与备份`。
 3. 如果只是第一次确认能不能用，点击 `导入小样例`；它是功能测试包。
 4. 如果想看完整效果，例如多个场景卡片和图谱关系，点击 `导入演示包`；它是产品演示包。
@@ -32,6 +46,8 @@
 7. 点击单词列表中的词卡表示“不认识”，该词会进入今日待复习队列。
 8. 进入 `今日` 完成正式复习。
 9. 定期在 `设置 -> 词卡与备份` 导出备份。
+
+说明：`gitee.com` 是国内代码仓库与说明页地址，不是静态网页应用托管域名。如果后续启用 Gitee Pages，应用会使用独立的 `gitee.io` 地址，并且它与 GitHub Pages 属于不同站点来源，本地学习数据不会自动互通。
 
 更详细说明见 [docs/QUICK_START.md](docs/QUICK_START.md)。
 
