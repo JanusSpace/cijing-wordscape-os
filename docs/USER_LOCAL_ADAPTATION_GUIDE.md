@@ -9,7 +9,7 @@ The app is local-first. Learning data is saved in the browser's IndexedDB for th
 That means these are different data spaces:
 
 ```text
-https://user.github.io/janus-wordscape-os/
+https://user.github.io/cijing-wordscape-os/
 http://127.0.0.1:5173/
 http://192.168.x.x:5173/
 https://gitee-pages-or-other-mirror/

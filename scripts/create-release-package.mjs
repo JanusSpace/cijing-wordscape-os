@@ -5,7 +5,7 @@ const root = process.cwd();
 const packageJson = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8'));
 const version = packageJson.version;
 const releaseRoot = path.join(root, 'releases');
-const releaseDir = path.join(releaseRoot, `janus-wordscape-os-v${version}`);
+const releaseDir = path.join(releaseRoot, `cijing-wordscape-os-v${version}`);
 const distDir = path.join(root, 'dist');
 
 if (!fs.existsSync(distDir)) {

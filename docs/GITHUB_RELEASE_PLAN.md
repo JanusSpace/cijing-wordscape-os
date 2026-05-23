@@ -36,7 +36,7 @@ The deployed app is an installable PWA.
 Attach:
 
 ```text
-janus-wordscape-os-v0.1.0-alpha-dist.zip
+cijing-wordscape-os-v0.1.0-alpha-dist.zip
 data/card-production/janus-personal-ai-english-sample-120.package.json
 data/card-production/janus-personal-ai-english-2000-blueprint.md
 schemas/standard-word-card-package.schema.json

@@ -235,7 +235,14 @@ TechLex
 
 ```text
 Janus Lexicon OS
-janus-lexicon-os
+repo slug: cijing-wordscape-os
+```
+
+说明：
+
+```text
+cijing-wordscape-os 是当前公开仓库和发布包命名。
+它服务于“词境”这个中文品牌语义，避免把底座品牌 Janus 和具体仓库路径混为一体。
 ```
 
 场景应用 ID 建议：
