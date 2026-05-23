@@ -38,7 +38,7 @@ The product is a local-first vocabulary memory runtime. It imports prepared word
 Open the public app:
 
 ```text
-https://jnaus-ai.github.io/cijing-wordscape-os/
+https://janus-ai.github.io/cijing-wordscape-os/
 ```
 
 Then go to:

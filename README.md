@@ -23,7 +23,7 @@
 
 ## 快速使用
 
-1. 打开应用页面：[https://jnaus-ai.github.io/cijing-wordscape-os/](https://jnaus-ai.github.io/cijing-wordscape-os/)。
+1. 打开应用页面：[https://janus-ai.github.io/cijing-wordscape-os/](https://janus-ai.github.io/cijing-wordscape-os/)。
 2. 进入 `设置 -> 词卡与备份`。
 3. 如果只是第一次确认能不能用，点击 `导入小样例`；它是功能测试包。
 4. 如果想看完整效果，例如多个场景卡片和图谱关系，点击 `导入演示包`；它是产品演示包。
