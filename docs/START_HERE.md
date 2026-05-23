@@ -33,6 +33,30 @@ The product is a local-first vocabulary memory runtime. It imports prepared word
 | Graph | Shows word, scene, source, tag, family, and confusing-word relationships. |
 | Settings | Manages learning rules, profile, card import/backup, data health, help, and algorithm notes. |
 
+## First Import Choice
+
+Open the public app:
+
+```text
+https://jnaus-ai.github.io/janus-wordscape-os/
+```
+
+Then go to:
+
+```text
+设置 -> 词卡与备份
+```
+
+Use this decision rule:
+
+| Situation | Choose | Meaning |
+|---|---|---|
+| First time, just checking whether it works | 导入小样例 | Small functional test package. |
+| Want to see the full product effect | 导入演示包 | Product demo package with scene cards and graph relationships. |
+| Already have your own cards | 选择文件 | Choose a local `.json` card package, then click import. |
+
+All imported learning data is stored in the current browser's local IndexedDB.
+
 ## The Three Card Factory Forms
 
 | Form | Best for | Where it runs |

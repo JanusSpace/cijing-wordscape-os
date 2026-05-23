@@ -18,16 +18,32 @@ If the browser supports PWA installation, add the app to desktop or home screen.
 Go to:
 
 ```text
-设置 -> 词卡与备份 -> 选择文件
+设置 -> 词卡与备份
 ```
 
-Choose a standard `.json` word-card package.
-
-Recommended first package:
+If this is your first visit and you only want to verify that the app works, click:
 
 ```text
-data/card-production/janus-personal-ai-english-sample-120.package.json
+导入小样例
 ```
+
+This is a small functional test package.
+
+If you want to preview the full product effect, including multiple scene cards and graph relationships, click:
+
+```text
+导入演示包
+```
+
+This is a product demo package.
+
+If you already have your own word-card package:
+
+```text
+选择文件 -> choose a .json package -> click the import button
+```
+
+File import is local browser import. The package is read into the current browser's IndexedDB; it is not uploaded to a Janus Wordscape OS server.
 
 ## 3. Learn From Notebook
 

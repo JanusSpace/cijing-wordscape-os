@@ -677,7 +677,7 @@ export default function SettingsView({
           items={[
             {
               label: '1. 导入词卡',
-              description: '在词卡与备份中选择 JSON、CSV 或 TSV 词卡包；导入前会校验字段并保留快照。'
+              description: '第一次确认可用点导入小样例；想看完整效果点导入演示包；已有词卡包则选择 JSON、CSV 或 TSV 文件后导入。'
             },
             {
               label: '2. 学习与浏览',

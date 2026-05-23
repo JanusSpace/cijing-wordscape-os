@@ -180,6 +180,14 @@
 导入失败不得破坏当前学习数据。
 ```
 
+首次使用分流：
+
+```text
+只确认能不能用：导入小样例。
+查看完整产品效果：导入演示包。
+已有真实词卡包：选择文件，选择 .json 词卡包，然后点击导入按钮。
+```
+
 备份规则：
 
 ```text
@@ -367,4 +375,3 @@ FSRS 记忆算法说明包含 ts-fsrs 5.4.0、MIT、FSRS 与浏览触发式遗�
 corepack pnpm run typecheck
 corepack pnpm run build
 ```
-
