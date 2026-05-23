@@ -35,6 +35,12 @@ https://gitee.com/janusai_admin/cijing-wordscape-os
 https://janus-ai.github.io/cijing-wordscape-os/
 ```
 
+国内在线应用页（启用 Gitee Pages 后）：
+
+```text
+https://janusai_admin.gitee.io/cijing-wordscape-os/
+```
+
 使用步骤：
 
 1. 打开在线应用页面。
@@ -47,7 +53,7 @@ https://janus-ai.github.io/cijing-wordscape-os/
 8. 进入 `今日` 完成正式复习。
 9. 定期在 `设置 -> 词卡与备份` 导出备份。
 
-说明：`gitee.com` 是国内代码仓库与说明页地址，不是静态网页应用托管域名。如果后续启用 Gitee Pages，应用会使用独立的 `gitee.io` 地址，并且它与 GitHub Pages 属于不同站点来源，本地学习数据不会自动互通。
+说明：`gitee.com` 是国内代码仓库与说明页地址，不是静态网页应用托管域名。国内在线应用需要启用 Gitee Pages，并使用 `gitee.io` 地址。GitHub Pages 与 Gitee Pages 属于不同站点来源，本地学习数据不会自动互通；跨站点使用前应先在 `设置 -> 词卡与备份` 导出备份。
 
 更详细说明见 [docs/QUICK_START.md](docs/QUICK_START.md)。
 
@@ -118,6 +124,7 @@ http://127.0.0.1:4173
 GitHub repository: source and documentation
 GitHub Pages: installable PWA
 GitHub Release: dist package, sample card package, schema, quick start
+Gitee Pages: domestic online app mirror, built from gh-pages branch
 ```
 
 发布检查：

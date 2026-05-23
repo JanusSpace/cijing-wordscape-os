@@ -41,6 +41,12 @@ For domestic users, first open the Gitee mirror landing page:
 https://gitee.com/janusai_admin/cijing-wordscape-os
 ```
 
+If Gitee Pages is enabled, the domestic online app URL is:
+
+```text
+https://janusai_admin.gitee.io/cijing-wordscape-os/
+```
+
 Open the public app:
 
 ```text
@@ -63,7 +69,7 @@ Use this decision rule:
 
 All imported learning data is stored in the current browser's local IndexedDB.
 
-Note: `gitee.com` is a repository and documentation page, not the static app hosting origin. If Gitee Pages is enabled later, it will use a separate `gitee.io` app URL. Browser learning data is isolated by site origin, so GitHub Pages and Gitee Pages will not share IndexedDB records automatically.
+Note: `gitee.com` is a repository and documentation page, not the static app hosting origin. The Gitee online app uses the separate `gitee.io` Pages URL. Browser learning data is isolated by site origin, so GitHub Pages and Gitee Pages will not share IndexedDB records automatically.
 
 ## The Three Card Factory Forms
 
