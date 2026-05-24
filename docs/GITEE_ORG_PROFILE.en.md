@@ -71,6 +71,12 @@ We welcome three types of contribution:
 
 We encourage shared building, but not low-quality bulk copying without sources, permissions, or attribution.
 
+## Copyright And Content Boundary
+
+Janus Wordscape OS uses layered licensing. Software code is governed by the repository's open-source license. Brand assets, official card packages, sample packs, screenshots, manuals, field standards, and other official content assets are not automatically licensed for commercial use with the code. Community card packages belong to their creators or original rights holders, and contributors should declare sources, licenses, and reuse boundaries. The project may remove infringing content, unauthorized bulk copies, and non-compliant community packages.
+
+See `LICENSE`, `CONTENT_LICENSE.md`, `CONTRIBUTOR_CONTENT_POLICY.md`, `TERMS_OF_USE.md`, `TAKEDOWN_POLICY.md`, and `docs/LEGAL_AND_CONTENT_GOVERNANCE_INDEX.md` for the detailed rules.
+
 ## Repositories
 
 - Gitee: https://gitee.com/cijingos/cijing-wordscape-os
@@ -82,4 +88,3 @@ Start here:
 - `docs/START_HERE.md`
 - `docs/QUICK_START.md`
 - `docs/PROJECT_BASELINE_FREEZE_INDEX_v1.0.md`
-

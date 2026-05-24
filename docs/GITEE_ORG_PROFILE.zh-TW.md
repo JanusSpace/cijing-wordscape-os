@@ -71,6 +71,12 @@
 
 我們鼓勵共建共享，但不鼓勵無來源、無授權、低品質的批量搬運。
 
+## 版權與內容邊界
+
+雅努斯詞境 OS 採用分層授權：軟體程式碼依倉庫開源授權協作；品牌、官方詞卡包、樣板包、截圖、手冊、欄位標準和其他官方內容資產不會隨程式碼自動取得商業授權。社群詞卡包歸創作者或原權利人所有，貢獻者應聲明來源、授權和可複用範圍。專案保留對侵權內容、未授權搬運內容和不合規社群包的下架處理權。
+
+詳細規則請見倉庫中的 `LICENSE`、`CONTENT_LICENSE.md`、`CONTRIBUTOR_CONTENT_POLICY.md`、`TERMS_OF_USE.md`、`TAKEDOWN_POLICY.md` 和 `docs/LEGAL_AND_CONTENT_GOVERNANCE_INDEX.md`。
+
 ## 倉庫入口
 
 - Gitee: https://gitee.com/cijingos/cijing-wordscape-os
@@ -82,4 +88,3 @@
 - `docs/START_HERE.md`
 - `docs/QUICK_START.md`
 - `docs/PROJECT_BASELINE_FREEZE_INDEX_v1.0.md`
-
