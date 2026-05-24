@@ -69,6 +69,14 @@ jobs:
           zip -r "$ZIP_NAME" "$RELEASE_DIR"
           echo "ZIP_NAME=$ZIP_NAME" >> "$GITHUB_ENV"
 
+      - name: Generate release checksums
+        run: |
+          sha256sum "$ZIP_NAME" > SHA256SUMS.txt
+          sha256sum data/card-production/janus-personal-ai-english-sample-120.package.json >> SHA256SUMS.txt
+          sha256sum data/card-production/janus-personal-ai-english-2000-blueprint.md >> SHA256SUMS.txt
+          sha256sum schemas/standard-word-card-package.schema.json >> SHA256SUMS.txt
+          sha256sum docs/QUICK_START.md >> SHA256SUMS.txt
+
       - name: Create or update GitHub Release
         env:
           GH_TOKEN: ${{ github.token }}
@@ -81,6 +89,7 @@ jobs:
             "data/card-production/janus-personal-ai-english-2000-blueprint.md#2000-card production blueprint"
             "schemas/standard-word-card-package.schema.json#Standard word-card package JSON schema"
             "docs/QUICK_START.md#Quick start guide"
+            "SHA256SUMS.txt#SHA256 checksums for release assets"
           )
 
           if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then

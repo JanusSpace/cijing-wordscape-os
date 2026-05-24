@@ -6,10 +6,13 @@ Before proposing changes, read:
 
 ```text
 PROJECT_STATE.md
+TERMS_OF_USE.md
+CONTRIBUTOR_CONTENT_POLICY.md
 docs/PROJECT_BASELINE_FREEZE_INDEX_v1.0.md
 docs/UI_FREEZE_INDEX_v1.0.md
 docs/MEMORY_ALGORITHM_FREEZE_v1.0.md
 docs/THIRD_PARTY_ALGORITHM_GOVERNANCE.md
+docs/LEGAL_AND_CONTENT_GOVERNANCE_INDEX.md
 ```
 
 ## Development Checks
@@ -40,3 +43,9 @@ Do not clear real user IndexedDB/localStorage in regression scripts.
 
 Do not add UI features that break the frozen five-tab product baseline without
 updating the freeze documents and regression plan.
+
+Do not submit community card packages without source, license, and commercial
+reuse metadata.
+
+Do not bulk-copy dictionary entries, proprietary decks, paid course content, or
+third-party audio into packages unless the source license explicitly allows it.

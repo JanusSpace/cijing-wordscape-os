@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import crypto from 'node:crypto';
 
 const root = process.cwd();
 const packageJson = JSON.parse(fs.readFileSync(path.join(root, 'package.json'), 'utf8'));
@@ -47,6 +48,12 @@ copyIfExists('dist');
 copyIfExists('README.md');
 copyIfExists('LICENSE');
 copyIfExists('NOTICE');
+copyIfExists('TERMS_OF_USE.md');
+copyIfExists('CONTENT_LICENSE.md');
+copyIfExists('COMMERCIAL_USE.md');
+copyIfExists('CONTRIBUTOR_CONTENT_POLICY.md');
+copyIfExists('BRAND_POLICY.md');
+copyIfExists('TAKEDOWN_POLICY.md');
 copyIfExists('PRIVACY.md');
 copyIfExists('SECURITY.md');
 copyIfExists('CHANGELOG.md');
@@ -68,6 +75,12 @@ const manifest = {
     'README.md',
     'LICENSE',
     'NOTICE',
+    'TERMS_OF_USE.md',
+    'CONTENT_LICENSE.md',
+    'COMMERCIAL_USE.md',
+    'CONTRIBUTOR_CONTENT_POLICY.md',
+    'BRAND_POLICY.md',
+    'TAKEDOWN_POLICY.md',
     'PRIVACY.md',
     'SECURITY.md',
     'CHANGELOG.md',
@@ -92,5 +105,36 @@ fs.writeFileSync(
   `# 雅努斯词境 OS · 技术英语词汇网络 v${version}\n\nThis package contains the static Janus Wordscape OS PWA runtime.\n\nHistorical development codename: TechLex OS.\n\n## Run Locally\n\nFrom the project root:\n\n\`\`\`text\ncorepack pnpm run serve:dist\n\`\`\`\n\nThen open:\n\n\`\`\`text\nhttp://127.0.0.1:4173\n\`\`\`\n\n## First Use\n\n1. Open Settings -> Cards And Backup.\n2. Import a standard JSON card package.\n3. Start from Notebook -> second-level scene folder.\n4. Export a backup before clearing browser storage or changing devices.\n\n## Data Safety\n\nThis alpha release stores learning data in browser IndexedDB, with localStorage used only as a bootstrap/shadow layer. Before switching browser, clearing site data, or moving machines, export a backup from Settings.\n\n## Restore\n\nUse Settings -> Restore backup and choose a Janus Wordscape OS JSON backup file.\n`,
   'utf8'
 );
+
+function listFilesForChecksums(dir, baseDir = dir) {
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  const files = [];
+
+  for (const entry of entries) {
+    const absolute = path.join(dir, entry.name);
+
+    if (entry.isDirectory()) {
+      files.push(...listFilesForChecksums(absolute, baseDir));
+      continue;
+    }
+
+    if (entry.name === 'SHA256SUMS.txt') {
+      continue;
+    }
+
+    files.push(path.relative(baseDir, absolute).split(path.sep).join('/'));
+  }
+
+  return files.sort((a, b) => a.localeCompare(b));
+}
+
+function sha256(filePath) {
+  return crypto.createHash('sha256').update(fs.readFileSync(filePath)).digest('hex');
+}
+
+const checksumLines = listFilesForChecksums(releaseDir)
+  .map((relativePath) => `${sha256(path.join(releaseDir, relativePath))}  ${relativePath}`);
+
+fs.writeFileSync(path.join(releaseDir, 'SHA256SUMS.txt'), `${checksumLines.join('\n')}\n`, 'utf8');
 
 console.log(`release_dir=${releaseDir}`);
