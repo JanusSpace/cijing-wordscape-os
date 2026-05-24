@@ -46,23 +46,27 @@
     </g>
   </g>
   <path d="M830 284h86" stroke="#d11b3d" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow)"/>
-  <g transform="translate(912 134)">
-    <circle cx="122" cy="150" r="118" fill="#fff" filter="url(#shadow)"/>
-    <circle cx="122" cy="150" r="20" fill="#d11b3d"/>
+  <g transform="translate(888 122)">
+    <circle cx="146" cy="142" r="112" fill="#fff" filter="url(#shadow)"/>
+    <circle cx="146" cy="142" r="20" fill="#d11b3d"/>
     <g stroke="#d11b3d" stroke-width="3" opacity=".78">
-      <path d="M122 150 69 83"/><path d="M122 150 180 74"/><path d="M122 150 226 147"/>
-      <path d="M122 150 67 226"/><path d="M122 150 179 232"/><path d="M122 150 112 43"/>
+      <path d="M146 142 93 75"/><path d="M146 142 204 66"/><path d="M146 142 250 139"/>
+      <path d="M146 142 91 218"/><path d="M146 142 203 224"/><path d="M146 142 136 35"/>
     </g>
     <g fill="#6f6f6f">
-      <circle cx="69" cy="83" r="9"/><circle cx="180" cy="74" r="9"/><circle cx="226" cy="147" r="9"/>
-      <circle cx="67" cy="226" r="9"/><circle cx="179" cy="232" r="9"/><circle cx="112" cy="43" r="9"/>
-      <circle cx="92" cy="112" r="6"/><circle cx="163" cy="118" r="6"/><circle cx="151" cy="188" r="6"/>
+      <circle cx="93" cy="75" r="9"/><circle cx="204" cy="66" r="9"/><circle cx="250" cy="139" r="9"/>
+      <circle cx="91" cy="218" r="9"/><circle cx="203" cy="224" r="9"/><circle cx="136" cy="35" r="9"/>
+      <circle cx="116" cy="104" r="6"/><circle cx="187" cy="110" r="6"/><circle cx="175" cy="180" r="6"/>
     </g>
-    <text x="20" y="318" fill="#0f1f33" font-family="Inter, 'Microsoft YaHei', sans-serif" font-size="28" font-weight="800">个人词汇网络操作系统</text>
-    <text x="34" y="354" fill="#64748b" font-family="Inter, 'Microsoft YaHei', sans-serif" font-size="18">按场景学习，按关系理解，按算法复习</text>
+    <g transform="translate(0 270)" filter="url(#shadow)">
+      <rect width="292" height="108" rx="26" fill="#fff" opacity=".94"/>
+      <text x="146" y="40" fill="#0f1f33" text-anchor="middle" font-family="Inter, 'Microsoft YaHei', sans-serif" font-size="25" font-weight="800">个人词汇网络 OS</text>
+      <text x="146" y="71" fill="#52637a" text-anchor="middle" font-family="Inter, 'Microsoft YaHei', sans-serif" font-size="17">按场景学习 · 按关系理解</text>
+      <text x="146" y="95" fill="#52637a" text-anchor="middle" font-family="Inter, 'Microsoft YaHei', sans-serif" font-size="17">按算法复习 · 持续演进</text>
+    </g>
   </g>
-  <g transform="translate(144 466)">
-    <rect width="912" height="50" rx="25" fill="#fff" opacity=".86"/>
-    <text x="44" y="33" fill="#64748b" font-family="Inter, 'Microsoft YaHei', sans-serif" font-size="18">公式：通用 OS + 标准词卡包 + 个人目标 = 可持续演进的个人词汇网络</text>
+  <g transform="translate(136 456)">
+    <rect width="690" height="50" rx="25" fill="#fff" opacity=".9"/>
+    <text x="42" y="33" fill="#52637a" font-family="Inter, 'Microsoft YaHei', sans-serif" font-size="18">公式：通用 OS + 标准词卡包 + 个人目标 = 个人词汇网络</text>
   </g>
 </svg>
