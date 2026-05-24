@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">社区词卡共建生态</title>
+  <desc id="desc">学习者、教师、开发者、AI Agent 和词卡 Skill 共建标准化词卡包。</desc>
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#0f1f33" flood-opacity=".12"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="560" rx="36" fill="#eef3f8"/>
+  <text x="70" y="78" fill="#0f1f33" font-family="Inter, 'Microsoft YaHei', sans-serif" font-size="40" font-weight="800">共建可复用的词汇网络</text>
+  <text x="70" y="122" fill="#64748b" font-family="Inter, 'Microsoft YaHei', sans-serif" font-size="21">用统一标准生产词卡，用明确授权保护创作者，用社区协作扩展场景。</text>
+  <g transform="translate(82 184)" filter="url(#shadow)" font-family="Inter, 'Microsoft YaHei', sans-serif">
+    <rect width="320" height="250" rx="28" fill="#fff"/>
+    <text x="34" y="58" fill="#0f1f33" font-size="29" font-weight="800">词卡 Skill</text>
+    <text x="34" y="96" fill="#64748b" font-size="18">让 AI 按个人目标分析场景</text>
+    <text x="34" y="128" fill="#64748b" font-size="18">批量生成标准词卡包</text>
+    <g transform="translate(34 164)" font-size="16" font-weight="700">
+      <rect width="86" height="34" rx="17" fill="#fff1f4"/><text x="18" y="23" fill="#d11b3d">场景</text>
+      <rect x="100" width="86" height="34" rx="17" fill="#f6f8fb"/><text x="118" y="23" fill="#64748b">来源</text>
+      <rect x="200" width="86" height="34" rx="17" fill="#f6f8fb"/><text x="218" y="23" fill="#64748b">授权</text>
+    </g>
+  </g>
+  <g transform="translate(440 156)" filter="url(#shadow)" font-family="Inter, 'Microsoft YaHei', sans-serif">
+    <rect width="320" height="304" rx="30" fill="#fff"/>
+    <circle cx="160" cy="112" r="52" fill="#fff1f4"/>
+    <circle cx="160" cy="112" r="15" fill="#d11b3d"/>
+    <g stroke="#d11b3d" stroke-width="4" stroke-linecap="round" opacity=".75">
+      <path d="M160 112 112 72"/><path d="M160 112 208 72"/><path d="M160 112 106 150"/><path d="M160 112 214 150"/>
+    </g>
+    <g fill="#6f6f6f"><circle cx="112" cy="72" r="8"/><circle cx="208" cy="72" r="8"/><circle cx="106" cy="150" r="8"/><circle cx="214" cy="150" r="8"/></g>
+    <text x="64" y="214" fill="#0f1f33" font-size="29" font-weight="800">标准词卡包</text>
+    <text x="54" y="252" fill="#64748b" font-size="18">字段统一 · 质量可审计 · 可导入复用</text>
+  </g>
+  <g transform="translate(798 184)" filter="url(#shadow)" font-family="Inter, 'Microsoft YaHei', sans-serif">
+    <rect width="320" height="250" rx="28" fill="#fff"/>
+    <text x="34" y="58" fill="#0f1f33" font-size="29" font-weight="800">社区共享</text>
+    <text x="34" y="96" fill="#64748b" font-size="18">创作者保留权利</text>
+    <text x="34" y="128" fill="#64748b" font-size="18">平台建立声明与下架机制</text>
+    <g transform="translate(34 164)" font-size="16" font-weight="700">
+      <rect width="96" height="34" rx="17" fill="#fff1f4"/><text x="18" y="23" fill="#d11b3d">热门词卡</text>
+      <rect x="110" width="96" height="34" rx="17" fill="#f6f8fb"/><text x="128" y="23" fill="#64748b">模板</text>
+      <rect x="220" width="66" height="34" rx="17" fill="#f6f8fb"/><text x="238" y="23" fill="#64748b">共建</text>
+    </g>
+  </g>
+  <path d="M408 310c40-28 68-42 100-42" fill="none" stroke="#d11b3d" stroke-width="5" stroke-linecap="round" opacity=".38"/>
+  <path d="M760 310c40-28 68-42 100-42" fill="none" stroke="#d11b3d" stroke-width="5" stroke-linecap="round" opacity=".38"/>
+  <g transform="translate(206 488)">
+    <text fill="#64748b" font-family="Inter, 'Microsoft YaHei', sans-serif" font-size="18">原则：开源软件降低门槛，标准词卡提升质量，关系图谱帮助理解，社区协作积累可复用词汇网络。</text>
+  </g>
+</svg>
