@@ -32,7 +32,7 @@ https://gitee.com/cijingos/cijing-wordscape-os
 在线应用页：
 
 ```text
-https://janus-ai.github.io/cijing-wordscape-os/
+https://janusspace.github.io/cijing-wordscape-os/
 ```
 
 国内在线应用页（启用 Gitee Pages 后）：

@@ -50,7 +50,7 @@ https://cijingos.gitee.io/cijing-wordscape-os/
 Open the public app:
 
 ```text
-https://janus-ai.github.io/cijing-wordscape-os/
+https://janusspace.github.io/cijing-wordscape-os/
 ```
 
 Then go to:

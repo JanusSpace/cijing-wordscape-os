@@ -10,7 +10,7 @@ current scenario application: 雅努斯词境 OS · 技术英语词汇网络
 historical development codename: TechLex OS
 positioning: personal context-based English vocabulary automatic learning runtime
 public repo slug: cijing-wordscape-os
-GitHub source repo: https://github.com/Janus-AI/cijing-wordscape-os
+GitHub source repo: https://github.com/JanusSpace/cijing-wordscape-os
 workspace: current repo root (Windows path contains Chinese characters)
 constitution: docs/TECHLEX_OS_CONSTITUTION_v1.2.md
 mainline protocol: docs/MAINLINE_INTERFACE_PROTOCOL.md
