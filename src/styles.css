@@ -16,6 +16,7 @@ body,
   width: 100%;
   min-height: 100%;
   overflow-x: hidden;
+  overflow-y: auto;
 }
 
 body {
@@ -31,7 +32,8 @@ body {
     sans-serif;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  overscroll-behavior-y: none;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: auto;
 }
 
 button,
@@ -52,6 +54,20 @@ button:disabled {
   cursor: not-allowed;
 }
 
+.touch-scroll-y {
+  touch-action: pan-y;
+  -webkit-overflow-scrolling: touch;
+}
+
+.touch-scroll-x {
+  touch-action: pan-x;
+  -webkit-overflow-scrolling: touch;
+}
+
+.touch-graph-canvas {
+  touch-action: none;
+}
+
 img,
 svg,
 canvas,
@@ -61,6 +77,8 @@ video {
 
 .app-shell {
   min-height: 100vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 @supports (min-height: 100dvh) {

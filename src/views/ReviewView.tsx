@@ -341,7 +341,7 @@ export default function ReviewView({ queue, data, onRate, scopeCardIds, scopeTit
         {scopeTitle ? <div className="rounded-full bg-white px-4 py-2 text-sm font-medium text-muted shadow-sm ring-1 ring-line">当前场景：{scopeTitle}</div> : null}
         {reviewStatsPanel}
         {showSceneFilter ? (
-        <div className="-mx-1 flex gap-2 overflow-x-auto px-1 pb-1" aria-label="待复习场景筛选">
+        <div className="-mx-1 flex touch-scroll-x gap-2 overflow-x-auto px-1 pb-1" aria-label="待复习场景筛选">
           <button
             className={`shrink-0 rounded-full px-3 py-1.5 text-xs font-medium transition ${selectedScene === ALL_SCENES ? 'bg-brand text-white' : 'bg-white text-muted ring-1 ring-line'}`}
             onClick={() => setSelectedScene(ALL_SCENES)}
@@ -361,7 +361,7 @@ export default function ReviewView({ queue, data, onRate, scopeCardIds, scopeTit
         ) : null}
       </div>
 
-      <section className="overflow-hidden rounded-lg border border-line bg-white shadow-sm">
+      <section className="touch-scroll-y overflow-hidden rounded-lg border border-line bg-white shadow-sm">
         <div className="border-b border-line bg-slate-50 px-5 py-3">
           <div className="flex flex-wrap items-center gap-2">
             <span className="rounded bg-blue-50 px-2 py-1 text-xs font-medium text-blue-700">{formatFrequencyTier(card.frequency_tier)}</span>

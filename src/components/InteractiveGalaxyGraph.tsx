@@ -1404,7 +1404,7 @@ export default function InteractiveGalaxyGraph({
 
       <canvas
         aria-label="TechLex OS word galaxy"
-        className="block h-[560px] w-full touch-none select-none"
+        className="block h-[560px] w-full touch-graph-canvas select-none"
         onPointerCancel={handlePointerUp}
         onPointerDown={handlePointerDown}
         onPointerLeave={handlePointerLeave}

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'techlex-os-cache-v0.1.3';
+const CACHE_NAME = 'techlex-os-cache-v0.1.4';
 const APP_SHELL = ['./', './index.html', './manifest.webmanifest', './icons/icon.svg', './avatars/default-user-avatar.svg'];
 
 function isSameOrigin(request) {

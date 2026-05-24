@@ -1012,7 +1012,7 @@ function DecksView({
       ) : null}
 
       {effectiveDeckMode === 'folders' ? (
-        <nav className="-mx-1 flex gap-1 overflow-x-auto px-1 pb-1 pt-1" aria-label="单词本领域包">
+        <nav className="-mx-1 flex touch-scroll-x gap-1 overflow-x-auto px-1 pb-1 pt-1" aria-label="单词本领域包">
           <button
             className={`shrink-0 rounded-full px-4 py-2 text-sm font-medium transition ${
               isAllDeck ? 'bg-brand text-white shadow-sm' : 'bg-white text-muted ring-1 ring-line'
@@ -1061,7 +1061,7 @@ function DecksView({
               return (
                 <button
                   aria-label={`${folder.label} 进入场景词卡`}
-                  className="relative block w-full overflow-hidden rounded-2xl border border-slate-100 bg-white text-left shadow-sm transition hover:border-brand/30 hover:shadow-md focus:outline-none focus:ring-4 focus:ring-brand/10"
+                  className="relative block w-full touch-scroll-y overflow-hidden rounded-2xl border border-slate-100 bg-white text-left shadow-sm transition hover:border-brand/30 hover:shadow-md focus:outline-none focus:ring-4 focus:ring-brand/10"
                   key={folder.scene}
                   onClick={() => openScenePage(folder.scene, 'all')}
                   title="进入场景词卡"
@@ -1108,7 +1108,7 @@ function DecksView({
               </div>
 
               {rangeSettingsOpen ? (
-                <div className="fixed left-3 right-3 top-24 z-30 max-h-[calc(100vh-8rem)] overflow-y-auto rounded-2xl border border-line bg-white p-4 text-sm shadow-xl sm:absolute sm:left-auto sm:right-4 sm:top-14 sm:w-[min(24rem,calc(100vw-3rem))]">
+                <div className="fixed left-3 right-3 top-24 z-30 max-h-[calc(100vh-8rem)] touch-scroll-y overflow-y-auto rounded-2xl border border-line bg-white p-4 text-sm shadow-xl sm:absolute sm:left-auto sm:right-4 sm:top-14 sm:w-[min(24rem,calc(100vw-3rem))]">
                   <div className="flex items-center justify-between gap-3">
                     <div className="font-semibold text-ink">词卡范围</div>
                     <button className="rounded-full px-2 py-1 text-xs text-muted hover:bg-slate-50 hover:text-ink" onClick={() => setRangeSettingsOpen(false)}>
@@ -1156,7 +1156,7 @@ function DecksView({
                   <div className="mt-5">
                     <div className="text-xs font-medium text-muted">选择场景</div>
                     <div className="mt-2 grid grid-cols-[5.5rem_minmax(0,1fr)] gap-2 sm:grid-cols-[7rem_minmax(0,1fr)] sm:gap-3">
-                      <div className="max-h-64 overflow-y-auto rounded-2xl bg-slate-50 p-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+                      <div className="max-h-64 touch-scroll-y overflow-y-auto rounded-2xl bg-slate-50 p-1 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
                         <button
                           className={`mb-1 w-full truncate rounded-xl px-2 py-2 text-left text-xs font-semibold sm:px-3 ${sceneRangeKind === 'all' ? 'bg-brand text-white shadow-sm' : 'text-muted hover:bg-white hover:text-ink'}`}
                           onClick={() => {
@@ -1193,7 +1193,7 @@ function DecksView({
                         })}
                       </div>
 
-                      <div className="max-h-64 overflow-y-auto">
+                      <div className="max-h-64 touch-scroll-y overflow-y-auto">
                         {sceneRangeKind === 'all' ? (
                           <button
                             className="w-full truncate rounded-xl border border-brand bg-brand/10 px-2 py-2 text-center text-xs font-semibold text-brand sm:px-3"
@@ -1249,7 +1249,7 @@ function DecksView({
                 </div>
               ) : null}
 
-              <div className="mt-4 flex gap-1 overflow-x-auto rounded-2xl bg-slate-50 p-1" aria-label="词卡状态筛选">
+              <div className="mt-4 flex touch-scroll-x gap-1 overflow-x-auto rounded-2xl bg-slate-50 p-1" aria-label="词卡状态筛选">
                 {sceneStatusFilters.map((filter) => {
                   const active = sceneStatusFilter === filter.key;
                   const count = sceneFilterCounts[filter.key] ?? 0;
@@ -1314,7 +1314,7 @@ function DecksView({
                 return (
                   <article className={cardIndex === 0 ? '' : 'border-t border-line'} key={card.card_id}>
                     <div
-                      className="flex w-full cursor-pointer items-center gap-3 px-3 py-3 text-left hover:bg-slate-50 sm:px-4"
+                      className="flex w-full touch-scroll-y cursor-pointer items-center gap-3 px-3 py-3 text-left hover:bg-slate-50 sm:px-4"
                       onClick={() => handleWordListCardClick(card, expanded)}
                       onKeyDown={(event) => {
                         if (event.key === 'Enter' || event.key === ' ') {
