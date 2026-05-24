@@ -34,8 +34,8 @@ The current application has five core pages: Today, Notebook, Stats, Graph, and 
 
 Online app:
 
-- Cloudflare Pages: https://cijingos.pages.dev
-- GitHub Pages: https://janusspace.github.io/cijing-wordscape-os/
+- Primary app: https://cijingos.com
+- Backup app: https://cijingos.pages.dev
 
 Basic workflow:
 

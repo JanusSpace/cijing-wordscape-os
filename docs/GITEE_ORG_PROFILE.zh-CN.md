@@ -34,8 +34,8 @@
 
 在线应用：
 
-- Cloudflare Pages: https://cijingos.pages.dev
-- GitHub Pages: https://janusspace.github.io/cijing-wordscape-os/
+- 主入口: https://cijingos.com
+- 备用入口: https://cijingos.pages.dev
 
 使用步骤：
 

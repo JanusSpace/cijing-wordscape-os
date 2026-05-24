@@ -113,24 +113,16 @@ https://gitee.com/cijingos/cijing-wordscape-os
 
 This `gitee.com` URL is the repository and documentation entry point. It can explain how to import sample packs and own `.json` card packages, but it is not the running PWA origin.
 
-Current Gitee Pages deployment branch:
+Current primary online app URL:
 
 ```text
-gh-pages
+https://cijingos.com
 ```
 
-Expected domestic online app URL after Gitee Pages is enabled:
+Current backup online app URL:
 
 ```text
-https://cijingos.gitee.io/cijing-wordscape-os/
-```
-
-In Gitee, enable it from the repository page:
-
-```text
-服务 -> Gitee Pages
-branch: gh-pages
-directory: /
+https://cijingos.pages.dev
 ```
 
 Do not imply that the repository page and the application page share the same browser storage.
